@@ -21,7 +21,7 @@ namespace Produto
             {
                 if ((conexao == null) || (conexao.State != ConnectionState.Open))
                 {
-                    conexao = new NpgsqlConnection("Server=127.0.0.1;Port=5432;User Id=postgres;Password=ifsp;Database=TOCC8");
+                    conexao = new NpgsqlConnection("Server=;Port=;User Id=;Password=;Database=");
                     conexao.Open();
                 }
                 comando = new NpgsqlCommand();
